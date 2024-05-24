@@ -20,8 +20,8 @@ app.use(
     express.static(path.join(__dirname, "/public")),
     mainRouter,
     usersRouter,
-    gamesRouter,
-    categoriesRouter
+    categoriesRouter,
+    gamesRouter
 )
 
 app.listen(PORT, () => {
